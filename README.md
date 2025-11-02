@@ -1,4 +1,6 @@
 # Multimodal Attention for Alzheimer's Disease Classification
+
+Adopted from: https://github.com/rsinghlab/MADDi 
 Code for the paper [Multimodal Attention-based Deep Learning for Alzheimer's Disease Diagnosis](https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocac168/6712292).
 
 ## Dataset
@@ -12,7 +14,6 @@ Further details on all packages used in this repository can be found in general/
 ## Description
 In this work, we presented a multi-modal, multi-class, attention-based deep learning framework to detect Alzheimer's disease using genetic, clinical, and imaging data from ADNI.
 
-<img src="https://user-images.githubusercontent.com/35315239/187262625-0f980b94-7cce-49ec-9041-421e56b67ecd.png" width="600">
 
 This repository contains the code for the mentioned paper. The model architecture above is located in training/train_all_modalities.py. 
 
@@ -38,6 +39,3 @@ To train and evaluate the multimodal architecture, run train_all_modalities.py.
 
 Some of the structure in this repo was adopted from https://github.com/soujanyaporia/contextual-multimodal-fusion
 
-## Authors
-
-[Michal Golovanevsky](https://github.com/michalg04)
